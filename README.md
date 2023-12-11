@@ -4,3 +4,4 @@
 
 2. [Adding Machines to Self-hosted Netbird Server](https://code.cloud-connect.asia/researchproject/networking/netbird/-/blob/master/Adding%20Machines%20to%20Self-hosted%20Netbird%20Server.md)
 
+3. [Service Configuration using Proxy](https://code.cloud-connect.asia/researchproject/networking/netbird/-/blob/master/Service%20Configuration%20using%20Proxy.md)
