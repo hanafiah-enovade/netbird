@@ -60,4 +60,28 @@ curl -fsSL https://pkgs.netbird.io/install.sh | sh
 ```
 netbird up --management-url https://tunnel.cloud-connect.asia:443 --setup-key A91349BF-EEAC-4DE4-84EA-A2E569579AE5
 ```
+## Step 4.0: Verify the configuration
 
+### Step 4.1: Client Verification
+
+- At the client, run the following command to verify the configuration
+```
+netbird status
+```
+- The following are the sample output
+```
+Daemon version: 0.24.4
+CLI version: 0.24.4
+Management: Connected
+Signal: Connected
+FQDN: prosesmoden-01.netbird.selfhosted
+NetBird IP: 100.101.156.38/16
+Interface type: Kernel
+Peers count: 2/2 Connected
+```
+
+### Step 4.2: Server Verification
+
+- Access to https://tunnel.cloud-connect.asia:443, from the menu select **Peers**, verify if the client configured from Step 3.0 listed from thr peers list
+
+<img src="https://code.cloud-connect.asia/researchproject/networking/netbird/uploads/93adfb1386b2ca2379d36efb095741d8/image.png" width=700>
