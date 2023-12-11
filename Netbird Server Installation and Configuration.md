@@ -24,7 +24,7 @@ exit
 
 # Step 2: Docker Installation & Configuration
 
-- Copy docker, docker compose installation scripts
+- Download docker, docker compose installation scripts
 
 ```
 wget -O install-docker.sh https://gitlab.com/bmcgonag/docker_installs/-/raw/main/install_docker_nproxyman.sh?ref_type=heads
@@ -65,6 +65,51 @@ Guacamole - Remote Desktop Protocol in the Browser (y/n): n
 docker ps
 ```
 
-7. SSH again using > ssh pentadbir@157.245.48.123 or ssh pentadbir@FQDN
+# Step 3: Netbird Installation
 
-<img src="https://code.cloud-connect.asia/msp/akademi-cloud-connect/training-modules/infrastruktur-moden/uploads/cfbb3cc38911e13ab4be4959294005aa/image.png" width=700>
+Reference: https://docs.netbird.io/selfhosted/selfhosted-quickstart
+
+- Download Netbird installation scripts
+
+```
+curl -sSLO https://github.com/netbirdio/netbird/releases/latest/download/getting-started-with-zitadel.sh
+```
+
+- Check the script
+```
+cat getting-started-with-zitadel.sh
+```
+- Run the script. (**Note**: Replace tunnel.cloud-connect.asia with your domain name created in Step 1)
+```
+export NETBIRD_DOMAIN=tunnel.cloud-connect.asia
+bash getting-started-with-zitadel.sh
+```
+- The following are the outcome example
+```
+       You can access the NetBird dashboard at https://tunnel.cloud-connect.asia:443
+       Login with the following credentials:
+       Username: admin@tunnel.cloud-connect.asia
+       Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
+```
+
+## Step 3.1: Verifying Netbird Installation
+- Access to https://tunnel.cloud-connect.asia:443 with the following example info
+```
+	Username: admin@tunnel.cloud-connect.asia
+	Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
+```
+<img src="https://code.cloud-connect.asia/researchproject/networking/netbird/uploads/856334f2b1318290978af4abce128488/image.png" width=400>
+
+- Click **Skip**
+
+<img src="https://code.cloud-connect.asia/researchproject/networking/netbird/uploads/e471f0e02da81023c21982d7b45ed3e8/image.png" width=400>
+
+- Change to New Password if required
+
+## Step 3.2: Verifying Zitadel Configuration
+- Access to Zitadel IAM https://tunnel.cloud-connect.asia/ui/console
+```
+	Username: admin@tunnel.cloud-connect.asia
+	Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
+```
+
