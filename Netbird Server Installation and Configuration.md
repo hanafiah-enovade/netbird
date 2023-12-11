@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# Step 1: Environment Readiness
+# Step 1.0: Environment Readiness
 
 - Create a VM instance with min 1VCPU 2GB RAM
 - Create A record i.e tunnel.cloud-connect.asia with the VM IP address
@@ -22,7 +22,7 @@ chown -R pentadbir:pentadbir /home/pentadbir/
 exit
 ```
 
-# Step 2: Docker Installation & Configuration
+# Step 2.0: Docker Installation & Configuration
 
 - Download docker, docker compose installation scripts
 
@@ -65,7 +65,7 @@ Guacamole - Remote Desktop Protocol in the Browser (y/n): n
 docker ps
 ```
 
-# Step 3: Netbird Installation
+# Step 3.0: Netbird Installation
 
 Reference: https://docs.netbird.io/selfhosted/selfhosted-quickstart
 
@@ -112,4 +112,6 @@ bash getting-started-with-zitadel.sh
 	Username: admin@tunnel.cloud-connect.asia
 	Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
 ```
+
+# Step 4.0: Client Configuration
 
