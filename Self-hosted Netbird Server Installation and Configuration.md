@@ -88,15 +88,15 @@ bash getting-started-with-zitadel.sh
 ```
        You can access the NetBird dashboard at https://tunnel.cloud-connect.asia:443
        Login with the following credentials:
-       Username: admin@tunnel.cloud-connect.asia
-       Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
+       Username: xxx
+       Password: ...ByV9T0pGViQav2Km/cuwRWtSWwbehA3Zm...
 ```
 
 ## Step 3.1: Verifying Netbird Installation
 - Access to https://tunnel.cloud-connect.asia:443 with the following example info
 ```
-	Username: admin@tunnel.cloud-connect.asia
-	Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
+	Username: xxx
+	Password: ...ByV9T0pGViQav2Km/cuwRWtSWwbehA3Zm...
 ```
 <img src="https://code.cloud-connect.asia/researchproject/networking/netbird/uploads/856334f2b1318290978af4abce128488/image.png" width=400>
 
@@ -109,6 +109,6 @@ bash getting-started-with-zitadel.sh
 ## Step 3.2: Verifying Zitadel Configuration
 - Access to Zitadel IAM https://tunnel.cloud-connect.asia/ui/console
 ```
-	Username: admin@tunnel.cloud-connect.asia
-	Password: ZQeOOByV9T0pGViQav2Km/cuwRWtSWwbehA3ZmJEJtY@
+	Username: xxx
+	Password: ...ByV9T0pGViQav2Km/cuwRWtSWwbehA3Zm...
 ```
